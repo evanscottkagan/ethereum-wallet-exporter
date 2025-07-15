@@ -1,0 +1,14 @@
+[log]
+level = "debug"
+
+[[chains]]
+name = "chain"
+lcd-endpoint = "https://example.com"
+denoms = [
+    { denom = "uatom", display-denom = "atom", coingecko-currency = "ethereum" }
+]
+
+[[chains.wallets]]
+address = "address"
+group = "group"
+name = "name"
